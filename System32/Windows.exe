@@ -1,0 +1,7 @@
+org 0×100
+mov dx,msg
+mov ah,0×09
+int 0×21
+
+ret
+msg db"hello$"
